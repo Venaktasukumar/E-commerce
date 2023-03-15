@@ -1,17 +1,16 @@
-import React from 'react';
-import { useState, useContext } from 'react';
+import React,{useContext } from 'react';
 import { UseContext } from '../App';
 
 let Main = (props) => {
     const { products, arrayLength, setarrayLength, count, setCount,mainItems,setmainItems} = useContext(UseContext);
     
     let update = (obj) => {
-        if (arrayLength.some(item => item.id === obj.id)) { // check if product already in cart
-            setarrayLength(arrayLength.filter(item => item.id !== obj.id)); // remove product from cart
-            setCount(count - 1); // decrement count
+        if (arrayLength.some(item => item.id === obj.id)) { 
+            setarrayLength(arrayLength.filter(item => item.id !== obj.id));
+            setCount(count - 1); 
         } else {
-            setarrayLength([...arrayLength, obj]); // add product to cart
-            setCount(count + 1); // increment count
+            setarrayLength([...arrayLength, obj]);
+            setCount(count + 1); 
         }
     }
 
