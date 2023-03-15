@@ -1,8 +1,8 @@
 import React,{useContext } from 'react';
 import { UseContext } from '../App';
 
-let Main = (props) => {
-    const { products, arrayLength, setarrayLength, count, setCount,mainItems,setmainItems} = useContext(UseContext);
+let Main = () => {
+    const { arrayLength, setarrayLength, count, setCount,mainItems,} = useContext(UseContext);
     
     let update = (obj) => {
         if (arrayLength.some(item => item.id === obj.id)) { 
