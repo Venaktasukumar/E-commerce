@@ -1,7 +1,7 @@
 import React from 'react';
 import Aside from './Aside';
 import Main from './Main';
-let Container = (props) => {
+let Container = () => {
     return(
         <div class="main-content">
             <Aside />
