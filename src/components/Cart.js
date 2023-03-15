@@ -1,12 +1,9 @@
-import React from "react";
-import { useState, useContext } from 'react';
+import React, { useContext }from "react";
 import { UseContext } from '../App';
 
 let Cart = () =>{
     const {arrayLength,setCount,setarrayLength,count} = useContext(UseContext);
     let Change = (obj) =>{
-        console.log(obj);
-        console.log("inside change");
         if (arrayLength.some(item => item.id === obj.id)) {
             setarrayLength(arrayLength.filter(item => item.id !== obj.id)); 
             setCount(count - 1); 
