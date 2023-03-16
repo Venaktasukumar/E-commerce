@@ -9,7 +9,7 @@ let Aside = () =>{
         setmainItems(AppleItems);
     }
     return(
-        <div class="item1">
+        <div class="item-one">
                 <h3>Brands</h3>
                 <button onClick={()=>{filteritems('iphone')}}>Apple</button>
                 <button onClick={()=>{filteritems('realme')}}>Realme</button>
