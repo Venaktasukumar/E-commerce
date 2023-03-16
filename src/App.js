@@ -52,7 +52,3 @@ function App() {
 
 export { UseContext };
 export default App;
-
-
-
-
