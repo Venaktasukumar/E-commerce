@@ -8,7 +8,7 @@ body{
 .header-content{
   height:50px;
   border-radius:5px;
-  background-color:bisque;
+  background-color:#ffe4c4;
   position:relative;
 }
 .header-name{
@@ -23,7 +23,7 @@ body{
   position:absolute;
   text-decoration:none;
   right:0;
-  color:blue;
+  color:#0000ff;
 }
 .header-items img{
   top:0px;
@@ -37,10 +37,10 @@ body{
   height:18px;
   width:18px;
   text-align: center;
-  border:1px solid black;
+  border:1px solid #000000;
   position:absolute;
   right:80px;
-  background-color:white;
+  background-color:#ffffff;
   border-radius:100%;
   top:12px;
 }
@@ -48,30 +48,30 @@ body{
   margin-top:5px;
   display:flex;
 }
-.main-content .item1{
+.main-content .item-one{
   height:150px;
   width:20%;
-  border:1px solid white;
+  border:1px solid #ffffff;
   border-radius: 10px;
-  background-color:lightblue;
+  background-color:#add8e6;
 }
-.main-content .item1 h3{
+.main-content .item-one h3{
   text-align: center;
 }
-.main-content .item2{
+.main-content .item-two{
   width:80%;
   margin-left:10px;
   height: 100%;
   border-width:10px;
-  background-color:white smoke;
+  background-color:#f5f5f5;
   border-radius:30px;
 
 }
-.main-content .item2 h2{
+.main-content .item-two h2{
   text-align:center;
-  background-color:lightblue;
+  background-color:#add8e6;
 }
-.item1 button{
+.item-one button{
   height:25px;
   width:60px;
   margin-top:10px;
@@ -79,32 +79,32 @@ body{
   border-radius:10px;
   cursor:pointer;
 }
-.main-content .item2 .images{
+.main-content .item-two .images{
   display:flex;
   flex-wrap:wrap;
 }
-.main-content .item2 .images div{
+.main-content .item-two .images div{
   height:300px;
-  width:210px;
-  margin:1px solid black;
+  width:225px;
+  margin:1px solid #000000;
   border-radius:10px;
   margin-bottom:15px;
   margin-right:5px;
   overflow:hidden;
-  border:3px solid black
+  border:3px solid #000000
 }
-.main-content .item2 .images div:hover{
+.main-content .item-two .images div:hover{
   transform:scale(0.9);
 }
-.main-content .item2 .images div p{
+.main-content .item-two .images div p{
   font-weight:bold;
   margin-left:80px;
 }
-.main-content .item2 .images div button{
+.main-content .item-two .images div button{
   border-radius:10px;
   padding:5px;
   width:150px;
-  background-color: bisque;
+  background-color: #ffe4c4;
   font-weight:bold;
   cursor:pointer;
   margin-left:30px;
@@ -114,8 +114,13 @@ body{
   flex-wrap:wrap;
 }
 .filter-images .images{
-  height:200px;
-  width:250px;
+  height:300px;
+  width:260px;
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:10px;
+  border-radius:10px;
+  border:1px solid #000000;
 }
 .filter-images .images p{
   margin-left:70px;
@@ -123,3 +128,4 @@ body{
 .filter-images .images button{
   margin-left:70px;
 }
+
