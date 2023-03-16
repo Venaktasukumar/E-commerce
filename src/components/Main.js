@@ -15,7 +15,7 @@ let Main = () => {
     }
 
     return (
-        <div className="item2">
+        <div className="item-two">
             <h2>Products</h2>
             <div className="images">
                 {mainItems.map((product) => (
