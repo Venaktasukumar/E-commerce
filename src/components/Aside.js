@@ -4,9 +4,9 @@ import { UseContext } from '../App';
 let Aside = () =>{
     const { products,setmainItems} = useContext(UseContext);
     let filteritems=(value)=>{
-        const AppleItems=products.filter((items)=> items.name===value);
-        console.log(AppleItems);
-        setmainItems(AppleItems);
+        const Items=products.filter((items)=> items.name===value);
+        console.log(Items);
+        setmainItems(Items);
     }
     return(
         <div class="item-one">
