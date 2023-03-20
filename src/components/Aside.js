@@ -1,5 +1,4 @@
 import React,{ useContext } from 'react';
-import { Outlet } from 'react-router-dom';
 import { UseContext } from '../App';
 let Aside = () =>{
     const { products,setmainItems} = useContext(UseContext);
@@ -15,7 +14,6 @@ let Aside = () =>{
                 <button onClick={()=>{filteritems('realme')}}>Realme</button>
                 <button onClick={()=>{filteritems('vivo')}}>Vivo</button>
                 <button onClick={()=>{filteritems('MI')}}>MI</button>
-                <Outlet />
             </div>
     )
 }
